@@ -8,7 +8,7 @@ Before deploying, ensure all environment variables are configured in your deploy
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=https://dcjmyofkyoigxnxobziv.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im92YXVzb2Niendwa3RnZXBnZ2dwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEwMDA5MjEsImV4cCI6MjA3NjU3NjkyMX0.mlCVbrcvo96hy6e88lhhjJ3H2I559j55h26_Tw6tdOU
 NEXT_PUBLIC_DISCORD_INVITE=https://discord.gg/ZpC3EYz3
 NEXT_PUBLIC_WHISH_DETAILS=81 394 607 / Elian Chaaya
 NEXT_PUBLIC_CRYPTO_WALLET=USDT-TRC20: TB98b4LLE8fJeSsxpmNWd979XY9FiB3KHN
