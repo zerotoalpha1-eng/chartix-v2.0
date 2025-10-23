@@ -1,9 +1,12 @@
 {
+  "homepage":"https://zerotoalpha1.github.io/chartix-v2.0/",
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -70,5 +73,8 @@
     "typescript": "5.2.2",
     "vaul": "^0.9.9",
     "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
