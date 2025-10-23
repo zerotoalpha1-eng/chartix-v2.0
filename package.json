@@ -1,5 +1,5 @@
 {
-  "homepage":"https://zerotoalpha1.github.io/chartix-v2.0/",
+  "homepage":"https://zerotoalpha1.github.io/chartix-v2.0",
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,7 @@
     "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
