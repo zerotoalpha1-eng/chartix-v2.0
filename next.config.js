@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/chartix-v2.0',
   eslint: {
     ignoreDuringBuilds: false,
   },
@@ -10,5 +12,4 @@ const nextConfig = {
   swcMinify: true,
   reactStrictMode: true,
 };
-
 module.exports = nextConfig;
