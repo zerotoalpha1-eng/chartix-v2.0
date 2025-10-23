@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/chartix-v2.0',
+  assetPrefix: '/chartix-v2.0',
   eslint: {
     ignoreDuringBuilds: false,
   },
