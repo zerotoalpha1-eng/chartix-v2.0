@@ -9,6 +9,10 @@ const nextConfig = {
   },
   swcMinify: true,
   reactStrictMode: true,
+
+  output: 'export',
+  basePath: '/chartix-v2.0', 
+  assetPrefix: '/chartix-v2.0/',
 };
 
 module.exports = nextConfig;
